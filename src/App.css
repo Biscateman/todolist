@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+  background-color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input{
+  width: 25%;
+  height: 3vh;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+form button{
+  width: 25%;
+  height: 3vh;
+  font-size: 1.5rem;
+}
+
+form button:hover{
+  cursor: pointer;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container input{
+  transform: scale(2);
+}
+
+.container h3{
+  padding: 20px;
+  color: aliceblue;
+}
+
+.container button{
+  background-color: red;
+  height: 3vh;
+  font-size: 1rem;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.container button:hover{
+  cursor: pointer;
+}
